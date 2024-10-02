@@ -93,4 +93,8 @@ SELECT COUNT(score) AS games, AVG(score) AS average FROM games WHERE bowlerid = 
 
 SELECT COUNT(score) AS games, AVG(score) AS average FROM games WHERE bowlerid = 103
 
+SELECT * FROM games JOIN bowlers ON games.bowlerid = bowlers.bowlerid WHERE games.bowlerid = 100;
+SELECT * FROM games JOIN bowlers ON games.bowlerid = bowlers.bowlerid WHERE games.bowlerid = 101;
+SELECT * FROM games JOIN bowlers ON games.bowlerid = bowlers.bowlerid WHERE games.bowlerid = 102;
+SELECT * FROM games JOIN bowlers ON games.bowlerid = bowlers.bowlerid WHERE games.bowlerid = 103;
 
