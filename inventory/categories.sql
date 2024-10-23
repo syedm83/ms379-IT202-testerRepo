@@ -12,3 +12,6 @@ VALUES
 DELETE from categories where categoryID = 100;
 
 SELECT * FROM categories;
+
+DELETE FROM categories
+WHERE `categoryID`= 1
