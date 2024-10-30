@@ -4,7 +4,10 @@ if (isset($_SESSION['login'])) {
    $itemID = $_POST['itemID'];
    if ((trim($itemID) == '') or (!is_numeric($itemID))) {
        echo "<h2>Sorry, you must enter a valid item ID number</h2>\n";
-   } else {
+    } else if (Item::findItem($itemID)) {
+        echo "<h2>Sorry, An item with the ID #$itemID already exists</h2>\n";
+   } 
+   else {
        $itemName = $_POST['itemName'];
        $categoryID = $_POST['categoryID'];
        $listPrice = $_POST['listPrice'];
