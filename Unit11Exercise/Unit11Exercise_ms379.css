@@ -1,0 +1,32 @@
+/* Manahil Syed, IT202-005, Internet Applications, Unit 11 Exercise, ms379@njit.edu */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    margin: 0 auto;
+    width: 550px;
+    border: 3px solid lavender;
+    padding: 1em 2em;
+ }
+ h1 {
+    color: palevioletred;
+    margin-top: 0;
+ }
+ div {
+    margin-bottom: 0.5em;
+ }
+ label {
+    float: left;
+    width: 16em;
+    text-align: right;
+ }
+ input {
+    margin-left: 1em;
+ }
+ #calculate {
+    margin-bottom: 1em;
+ }
+ p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    color: palevioletred;
+}
